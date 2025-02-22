@@ -1,10 +1,10 @@
 // async function getBotResponse(userInput) {
-//     const API_KEY = "ASY2RCa89ifV65Mdr2YdB4udSJfyV1zfJFCwEIWv";  // Replace with your actual API key
+//     const API_KEY = "ASY2RCa89ifV65Mdr2YdB4udSJfyV1zfJFCwEIWv";
 //     const API_URL = "https://api.cohere.ai/generate";
 // }
 const prompt = document.querySelector("#prompt")
 const chatcontainer = document.querySelector(".chatbox-box")
-const apiurl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyCQdWguaprel4dN57Vaj8G_fwKd--S1aX8"
+const apiurl = "https://"
 const sendbtn = document.querySelector("#send-btn")
 
 let user = {
